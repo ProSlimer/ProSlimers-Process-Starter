@@ -34,7 +34,7 @@ def runprogram():
         os.startfile(path)
     #Log that the file was started
         print(program, "seems to have stopped, restarting");
-8 
+        
 program = input("What is the name of the program we are looking for?\n")
 path = input("And where is the file located? (Full path)\n")
 print('Process starter is now looking for', program, 'in', path,'\n')
