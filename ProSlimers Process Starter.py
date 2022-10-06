@@ -37,7 +37,8 @@ def runprogram():
         
 program = input("What is the name of the program we are looking for?\n")
 path = input("And where is the file located? (Full path)\n")
-print('Process starter is now looking for', program, 'in', path,'\n')
+delay = int(input("How often would you like to check? (in seconds; checking mroe often increases resource usage)\n"))
+print('Process starter is now looking for', program, 'in', path, 'every', delay, 'seconds.\n')
 #Start infinate loop
 while (True): 
     runprogram() 
