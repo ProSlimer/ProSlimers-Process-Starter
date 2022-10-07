@@ -36,7 +36,7 @@ def runprogram():
         print(program, "seems to have stopped, restarting");
         
 program = "db1000n"
-path = input("And where is the file located? (Full path)\n")
+path = input("Where is your db1000n file located? (Full path)\n")
 print('Process starter is now looking for', program, 'in', path,'\n')
 #Start infinate loop
 while (True): 
