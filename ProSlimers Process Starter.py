@@ -37,7 +37,7 @@ def runprogram():
         
 program = "db1000n"
 path = input("Where is your db1000n file located? (Full path)\n")
-delay = int(input("How often would you like to check? (in seconds; checking mroe often increases resource usage)\n"))
+delay = int(input("How often would you like to check? (in seconds; checking more often increases resource usage)\n"))
 print('Process starter is now looking for', program, 'in', path, 'every', delay, 'seconds.\n')
 #Start infinate loop
 while (True): 
