@@ -42,4 +42,4 @@ print('Process starter is now looking for', program, 'in', path, 'every', delay,
 #Start infinate loop
 while (True): 
     runprogram() 
-    time.sleep (0) 
+    time.sleep (delay) 
