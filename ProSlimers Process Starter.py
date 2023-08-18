@@ -68,9 +68,9 @@ def runprogram():
     #Start given file
         os.startfile(path)
     #Log that the file was started
-        print(program, "seems to have stopped, restarting");
+        print(program, "seems to have stopped, restarting")
 
-print("Process Starter Has Started")
+print("Process starter is now looking for", program, "in", path, "every", delay, "seconds.\n")
 #Set value = True to start infinate loop
 while (True): 
     runprogram() 
